@@ -41,6 +41,7 @@ Para comenzar a usar **BocaMarketMonitor AI**, sigue estos pasos:
     ```
 
 5. **Configura las credenciales de la API de Gemini:**
+   - Accede a la pagina de [API de Gemini](https://aistudio.google.com/app/apikey) y obtiene una key a base de un nuevo proyecto
    - Crea un archivo `.env` en la raíz del proyecto y agrega tus credenciales y link a la API preinstalada:
      ```
      GEMINI_API_KEY=tu_clave_de_api
@@ -69,10 +70,14 @@ Para comenzar a usar **BocaMarketMonitor AI**, sigue estos pasos:
 - [ ] **Mejorar el análisis de probabilidad de transferencia:** Optimizar el algoritmo para aumentar la precisión.
 - [ ] **Agregar más fuentes de noticias:** Incluir sitios web adicionales para ampliar el rango de información.
 - [ ] **Desarrollar una interfaz gráfica de usuario (GUI):** Facilitar el uso de la herramienta a través de una interfaz amigable.
-- [ ] **Implementar un sistema de notificaciones:** Alertar a los usuarios sobre noticias relevantes o cambios en las probabilidades de transferencia.
+- [ ] **Implementar un sistema de notificaciones:** Alertar a los usuarios sobre noticias relevantes o cambios en las probabilidades de transferencia por E-Mail.
 - [ ] **Optimizar el rendimiento del web scraping:** Reducir el tiempo de respuesta y mejorar la eficiencia del scraping.
 - [ ] **Manejo de errores:** Agregar manejos de errores en mas lugares
-- [ ] **Agregar cache:** Al agregar cache se tendria que mejorar la velocidad del programa
+- [ ] **Agregar cache:** Al agregar cache en disco se tendria que mejorar la velocidad del programa
+- [ ] **Agregar seguridad a la API:** Agregar seguridad a la API para evitar mal usos
+- [ ] **Mover AI a la API:** Mover la AI a la API para poder permitir utilizacion por parte de otros programas
+- [ ] **Agregar guia de estilo:** Agregar guia de estilo para facilitar el desarollo
+- [ ] **Crear documentacion:** Crear documentacion para usar BocaMarketMonitor AI
 
 ## Contribución
 
